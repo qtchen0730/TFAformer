@@ -5,7 +5,6 @@
 
 This repository contains the training pipeline, data-loading utilities, time-frequency patch embedding module, and Transformer-based classification model used in the IFAC experiments.
 
-> ✅ IDE/cache folders are intentionally omitted from this README: `.idea/`, `.pytest_cache/`, `.vscode/`, and `__pycache__/`.
 
 ---
 
@@ -61,13 +60,6 @@ TFAformer/
 | `Embedding/` | Time-frequency embedding modules. The current model uses `MAPE.py`. |
 | `models/` | TFAformer model components, including the attention layer, Transformer block, full encoder, and top-level wrapper. |
 | `utils_dsbn/` | Reusable training utilities, loss helpers, learning-rate tools, monitors, and CSV-saving helpers. |
-| `save_dir/` | Generated experiment outputs, including CSV summaries, prediction labels, and optional model checkpoints. |
-| `save_dir/IFAC_Time_frequency/` | Default output root used by `main.py`. |
-| `save_dir/IFAC_Time_frequency/lr_0.0003/` | Results grouped by learning rate. |
-| `save_dir/IFAC_Time_frequency/lr_0.0003/TFAformer/` | Results grouped by model/weight setting. |
-| `save_dir/.../<dataset_name>/` | Dataset-specific experiment records. |
-| `save_dir/.../<dataset_name>/T0/` | Transfer-task result folder. Other task folders such as `T20`, `T25`, `T30`, and `T35` may be created depending on the dataset. |
-| `save_dir/.../<dataset_name>/T0/1/` | Repeat-run output folder. During training, repeat folders may be renamed to include the best accuracy. |
 
 ---
 
