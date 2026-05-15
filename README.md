@@ -1,4 +1,4 @@
-# Device-Agnostic Modality-Adaptive Perception Embedding and Universal Time–Frequency Aggregation Transformer for Unknown-Domain Fault Diagnosis
+# Device-Agnostic Modality-Adaptive Perception Embedding and Universal Time-Frequency Aggregation Transformer for Unknown-Domain Fault Diagnosis
 # TFAformer
 
 🌐 **Code release for an IFAC conference paper on time-frequency-aware Transformer modeling for cross-domain fault diagnosis.**
