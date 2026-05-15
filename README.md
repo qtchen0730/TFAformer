@@ -286,20 +286,4 @@ The script appends to existing CSV files, so remove or rename old output folders
 
 ---
 
-## 📄 Paper
-
-The manuscript file is included as:
-
-```text
-Paper.pdf
-```
-
-If you use this code or dataset setup in your research, please cite the corresponding IFAC conference paper after the final citation information is available.
-
----
-
-## 📝 License
-
-No license file is included yet. Before public release, add an open-source license such as MIT, Apache-2.0, or BSD-3-Clause according to your intended usage policy.
-
 
