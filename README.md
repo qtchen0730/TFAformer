@@ -43,7 +43,6 @@ TFAformer/
 |       |-- lr_0.0003/
 |           |-- TFAformer/
 |               |-- PU_datasets_4classes_4096_1samples/
-|               |-- SCARA_multi_modal_datasets/
 |-- utils_dsbn/
 |   |-- save_other_functions.py
 |   |-- train_utils.py
